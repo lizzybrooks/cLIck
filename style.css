@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Remove this if you only need horizontal centering */
+}
+
+ #canvas-container {
+   position: relative;
+   /* Establish this container as the positioning context */
+   width: 900px;
+   height: auto;
+   margin: 0 auto;
+   /* Center the container */
+   overflow-y: auto;
+   /* Enable vertical scrolling */
+ }
+
+ #searchInput {
+   position: absolute;
+   /* Position the input absolutely within its parent */
+   top: 200px;
+   /* Position it 20px from the top of the container */
+   left: 350px;
+   /* Center it horizontally, adjust as needed */
+   z-index: 100;
+   /* Ensure it is above the canvas */
+ }

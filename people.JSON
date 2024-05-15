@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Vita",
+      "keywords": ["art", "music", "design"]
+    },
+    {
+      "id": 2,
+      "name": "Zainab",
+      "keywords": ["programming", "technology", "gaming"]
+    },
+    {
+      "id": 3,
+      "name": "Dani",
+      "keywords": ["sports", "fitness", "health"]
+    }
+  ]
+}
